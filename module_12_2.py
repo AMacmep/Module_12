@@ -40,4 +40,3 @@ class TournamentTest(unittest.TestCase):
         result = tourne_3.start()
         self.assertTrue(result[list(result.keys())[-1]] == 'Ник')
         self.all_results['test_tourne3'] = result
-
