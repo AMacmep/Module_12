@@ -1,0 +1,14 @@
+2024-11-19 09:21:58,039 | WARNING | Неверный тип данных для объекта Runner: '>' not supported between instances of 'str' and 'int'
+Traceback (most recent call last):
+  File "C:\Users\Macmep\PycharmProjects\Module_12\tests_12_4.py", line 65, in test_run
+    test_run1 = Runner("Name2","N")
+  File "C:\Users\Macmep\PycharmProjects\Module_12\tests_12_4.py", line 15, in __init__
+    if speed > 0:
+TypeError: '>' not supported between instances of 'str' and 'int'
+2024-11-19 09:21:58,040 | WARNING | Неверная скорость для Runner: Скорость не может быть отрицательной, сейчас -5
+Traceback (most recent call last):
+  File "C:\Users\Macmep\PycharmProjects\Module_12\tests_12_4.py", line 54, in test_walk
+    test_walk1 = Runner("Name1", -5)
+  File "C:\Users\Macmep\PycharmProjects\Module_12\tests_12_4.py", line 18, in __init__
+    raise ValueError(f'Скорость не может быть отрицательной, сейчас {speed}')
+ValueError: Скорость не может быть отрицательной, сейчас -5
